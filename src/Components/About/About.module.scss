@@ -1,0 +1,29 @@
+.aboutmain {
+  height: 200vh;
+  width: 100vw;
+  background-color: black;
+  color: white;
+  position: absolute;
+  z-index: -10;
+}
+
+.pinkdimond {
+  position: absolute;
+  left: 0;
+  height: 800px;
+  width: auto;
+}
+.greendimond {
+  position: absolute;
+  bottom: 0;
+  right: 300px;
+  height: 600px;
+  width: auto;
+}
+.profiledimond {
+  position: absolute;
+  right: 170px;
+  top: 0;
+  height: 700px;
+  width: auto;
+}

@@ -1,0 +1,26 @@
+.nav {
+  height: 100px;
+  width: 50vw;
+  position: absolute;
+  background-color: black;
+  color: white;
+  z-index: 0;
+  border: solid 2px fuchsia;
+  p {
+    position: relative;
+    display: inline;
+    justify-content: space-evenly;
+  }
+  h3 {
+    position: relative;
+    display: inline;
+    justify-content: space-evenly;
+    padding-left: 100px;
+  }
+  
+}
+a {
+  color: white;
+  cursor: pointer;
+  text-decoration: underline;
+}
