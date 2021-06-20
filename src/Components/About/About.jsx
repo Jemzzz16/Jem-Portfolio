@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./About.module.scss";
-import Greendimond from '../../images/Green-dimond.png';
 import Pinkdimond from '../../images/Side-pink-dimond.png';
 import Profiledimond from '../../images/Profile-pic.png';
 
@@ -9,7 +8,6 @@ const About = () => {
     <div className={styles.aboutmain}>
       <img className={styles.pinkdimond} src={Pinkdimond} alt='#'></img>
       <img className={styles.profiledimond} src={Profiledimond} alt='#'></img>
-      <img className={styles.greendimond} src={Greendimond} alt='#'></img>
       <div className={styles.paraone}>
         <p>
           Hi I’m Jem, full stack 
@@ -24,12 +22,6 @@ const About = () => {
           your ideas 
           into something amazing!
         </p>
-      </div>
-      
-      <div className={styles.projectheadings}>
-        <h3>.Project 1 /</h3>
-        <h3>.Project 2 /</h3>
-        <h3>.Project 3 /</h3>
       </div>
     </div>
   );

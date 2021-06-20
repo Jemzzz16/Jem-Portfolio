@@ -1,67 +1,63 @@
 .heading {
-  margin: 0;
-  padding: 0;
-  margin-top: 100px;
-  color: white;
-  background-color: black;
   height: 100vh;
   width: 100vw;
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-color: black;
   position: absolute;
-  z-index: -20;
-  border: solid 2px fuchsia;
+  overflow: hidden;
     h1 {
       position: absolute;
-      padding-top: 200px;
-      font-size: 8rem;
-      margin: 0;
-      z-index: 100;
+      padding-top: 70%;
+      font-size: 4rem;
+      margin: 20px;
+      z-index: 2;
     }
     h2 {
       position: absolute;
-      padding-top: 200px;
-      font-size: 8rem;
-      margin: 125px;
-      z-index: 10;
+      padding-top: 70%;
+      font-size: 4rem;
+      margin: 20%;
+      z-index: 2;
     }
 }
-
   .pink {
-  position: absolute;
-  height: 100vh;
-  width: auto;
-  z-index: -10;
-  border: solid 2px fuchsia;
+    position: absolute;
+    height: 60%;
+    width: auto;
+    bottom: -10%;
+    left: 0;
+    z-index: 1;
   }
 
-  .laptop {
-    position: absolute;
-    height: 600px;
-    width: auto;
-    right: 0;
-    bottom: 0;
-    z-index: -1000;
-    border: solid 2px fuchsia;
-  }
+  // .laptop {
+  //   position: absolute;
+  //   height: 500px;
+  //   width: auto;
+  //   right: 0;
+  //   bottom: 0;
+  //   border: solid 2px fuchsia;
+  //   z-index: 0;
+  // }
   .orangedimond {
     position: absolute;
+    height: 70%;
+    width: auto;
     right: 0;
-    top: -110px;
-    z-index: 300;
+    top: -10%;
     margin: 0;
-    border: solid 2px fuchsia;
+    z-index: 1;
   }
   .jem {
     margin: 0;
-    padding: 0;
-    padding-right: 50px;
-    padding-top: 20px;
+    padding: 2%;
     position: absolute;
     right: 0;
-    top: -110px;
-    z-index: 301;
-    font-size: 3rem;
+    font-size: 2rem;
     text-decoration: underline;
     color: white;
     cursor: pointer;
     text-decoration: none;
+    z-index: 2;
   }

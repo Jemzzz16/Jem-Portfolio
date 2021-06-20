@@ -1,11 +1,9 @@
 .nav {
-  height: 100px;
-  width: 50vw;
-  position: absolute;
+  height: 40px;
+  width: 70vw;
+  position: sticky;
   background-color: black;
   color: white;
-  z-index: 0;
-  border: solid 2px fuchsia;
   p {
     position: relative;
     display: inline;
@@ -17,7 +15,6 @@
     justify-content: space-evenly;
     padding-left: 100px;
   }
-  
 }
 a {
   color: white;

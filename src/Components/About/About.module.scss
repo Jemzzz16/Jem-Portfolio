@@ -1,23 +1,17 @@
 .aboutmain {
-  height: 200vh;
+  height: 100vh;
   width: 100vw;
+  margin: 0;
+  padding: 0;
   background-color: black;
   color: white;
   position: absolute;
-  z-index: -10;
 }
 
 .pinkdimond {
   position: absolute;
   left: 0;
   height: 800px;
-  width: auto;
-}
-.greendimond {
-  position: absolute;
-  bottom: 0;
-  right: 300px;
-  height: 600px;
   width: auto;
 }
 .profiledimond {
@@ -27,13 +21,11 @@
   height: 700px;
   width: auto;
 }
-
-.projectheadings {
-  position: absolute;
-  bottom: 100px;
-  left: 50px;
-  font-size: 3rem;
-
+p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
 }
 .paraone {
   margin-block-start: 0;
@@ -45,15 +37,9 @@
   font-size: 2rem;
   position: absolute;
   color: white;
-  z-index: 500;
   top: 170px;
   left: 250px;
-  p{
-    margin-block-start: 0;
-    margin-block-end: 0;
-    margin-inline-start: 0;
-    margin-inline-end: 0;
-  }
+  border: solid 2px fuchsia;
 }
 .paratwo {
   height: 200px;
@@ -61,13 +47,7 @@
   font-size: 2rem;
   position: absolute;
   color: white;
-  z-index: 500;
   top: 350px;
   left: 500px;
-  p{
-    margin-block-start: 0;
-    margin-block-end: 0;
-    margin-inline-start: 0;
-    margin-inline-end: 0;
-  }
+  border: solid 2px fuchsia;
 }
