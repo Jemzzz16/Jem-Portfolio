@@ -9,14 +9,14 @@
   overflow: hidden;
     h1 {
       position: absolute;
-      padding-top: 70%;
+      padding-top: 120%;
       font-size: 4rem;
       margin: 20px;
       z-index: 2;
     }
     h2 {
       position: absolute;
-      padding-top: 70%;
+      padding-top: 120%;
       font-size: 4rem;
       margin: 20%;
       z-index: 2;
@@ -24,10 +24,10 @@
 }
   .pink {
     position: absolute;
-    height: 60%;
+    height: 80%;
     width: auto;
-    bottom: -10%;
-    left: 0;
+    bottom: -20%;
+    left: -10%;
     z-index: 1;
   }
 
@@ -44,7 +44,7 @@
     position: absolute;
     height: 70%;
     width: auto;
-    right: 0;
+    right: -10%;
     top: -10%;
     margin: 0;
     z-index: 1;
