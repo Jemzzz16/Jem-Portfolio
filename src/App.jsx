@@ -10,8 +10,8 @@ function App() {
   return (
     <div className={styles.app}>
       <Router>
-        <Navbar />
-        <Projects />
+        {/* <Navbar /> */}
+        {/* <Projects /> */}
         <Routes />
       </Router>
     </div>

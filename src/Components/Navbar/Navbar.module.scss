@@ -38,13 +38,14 @@ svg {
   justify-content: center;
   position: absolute;
   top: 0;
-  left: -100%;
+  left: 0;
   height: 150px;
   width: 120px;
   background-color: black;
   transition: 850ms;
   border: solid 2px fuchsia;
   padding-inline-start: 0;
+  z-index: 600;
   a {
     text-decoration: none;
     color: white;

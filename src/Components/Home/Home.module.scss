@@ -7,57 +7,51 @@
   background-color: black;
   position: absolute;
   overflow: hidden;
-    h1 {
-      position: absolute;
-      padding-top: 120%;
-      font-size: 4rem;
-      margin: 20px;
-      z-index: 2;
-    }
-    h2 {
-      position: absolute;
-      padding-top: 120%;
-      font-size: 4rem;
-      margin: 20%;
-      z-index: 2;
-    }
-}
+  .title { 
+    position: absolute;
+    top: 59%;
+    left: 3%;
+    font-size: 2rem;
+
+  }
   .pink {
     position: absolute;
-    height: 80%;
+    height: 70%;
     width: auto;
-    bottom: -20%;
-    left: -10%;
-    z-index: 1;
-  }
+    bottom: -5%;
+    left: 0;
 
-  // .laptop {
-  //   position: absolute;
-  //   height: 500px;
-  //   width: auto;
-  //   right: 0;
-  //   bottom: 0;
-  //   border: solid 2px fuchsia;
-  //   z-index: 0;
-  // }
+  }
   .orangedimond {
     position: absolute;
     height: 70%;
     width: auto;
-    right: -10%;
-    top: -10%;
-    margin: 0;
-    z-index: 1;
+    right: -5%;
+    top: -15%;
+
   }
-  .jem {
-    margin: 0;
-    padding: 2%;
-    position: absolute;
-    right: 0;
-    font-size: 2rem;
-    text-decoration: underline;
-    color: white;
-    cursor: pointer;
-    text-decoration: none;
-    z-index: 2;
-  }
+}
+
+.jem {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 2%;
+  top: 1%;
+  font-size: 2rem;
+  text-decoration: underline;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  z-index: 2;
+}
+
+// .laptop {
+//   position: absolute;
+//   height: 500px;
+//   width: auto;
+//   right: 0;
+//   bottom: 0;
+//   border: solid 2px fuchsia;
+//   z-index: 0;
+// }

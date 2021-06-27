@@ -9,17 +9,13 @@ const Projects = () => {
 
 
   return (
-    <>
-      <div className={styles.projectsmain}>
-        <img className={styles.greendimond} src={Greendimond} alt='#'></img>
-      </div>
-      
+    <div className={styles.projectmain}>
       <div className={styles.projectheadings}>
         <h3>.Project 1 /</h3>
         <h3>.Project 2 /</h3>
         <h3>.Project 3 /</h3>
       </div>
-    </>
+    </div>
   );
 };
 

@@ -1,54 +1,88 @@
 .aboutmain {
-  height: 100vh;
+  position: absolute;
+  height: 200vh;
   width: 100vw;
   margin: 0;
   padding: 0;
   background-color: black;
   color: white;
-  position: absolute;
   overflow: hidden;
+  font-size: 1.1rem;
+  ul {
+    list-style-type: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 0;
+  }
+  p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+  }
+  .about {
+    position: absolute;
+    left: 5%;
+    top: 15.5%;
+    z-index: 2;
+    font-size: 2rem;
+  }
+  .pinkdimond {
+    position: absolute;
+    right: 0%;
+    bottom: -6%;
+    height: 30%;
+    width: auto;
+  }
+  .greendimond {
+    position: absolute;
+    left: 0;
+    top: -3%;
+    height: 45%;
+    width: auto;
+  }
+  .profiledimond {
+    position: absolute;
+    right: 0;
+    top: 20%;
+    height: 40%;
+    width: auto;
+  }
+  .paraone { 
+    position: absolute;
+    height: 11%;
+    width: 55%;
+    top: 53%;
+    left: 5%;
+  }
+  .paratwo {
+    position: absolute;
+    height: 10%;
+    width: 50%;
+    top: 66%;
+    right: 5%;
+    text-align: right;
+  }
+  .parathree {
+    position: absolute;
+    height: 10%;
+    width: 60%;
+    top: 78%;
+    left: 5%;
+  }
 }
-
-.pinkdimond {
+.jem {
+  margin: 0;
+  padding: 0;
   position: absolute;
-  left: 0;
-  height: 800px;
-  width: auto;
-}
-.profiledimond {
-  position: absolute;
-  right: 100px;
-  top: 0;
-  height: 700px;
-  width: auto;
-}
-p {
-  margin-block-start: 0;
-  margin-block-end: 0;
-  margin-inline-start: 0;
-  margin-inline-end: 0;
-}
-.paraone {
-  margin-block-start: 0;
-  margin-block-end: 0;
-  margin-inline-start: 0;
-  margin-inline-end: 0;
-  height: 200px;
-  width: 300px;
+  right: 2%;
+  top: 1%;
   font-size: 2rem;
-  position: absolute;
+  text-decoration: underline;
   color: white;
-  top: 170px;
-  left: 250px;
-  border: solid 2px fuchsia;
-}
-.paratwo {
-  height: 200px;
-  width: 300px;
-  font-size: 2rem;
-  position: absolute;
-  color: white;
-  top: 350px;
-  left: 500px;
-  border: solid 2px fuchsia;
+  cursor: pointer;
+  text-decoration: none;
+  z-index: 2;
 }
