@@ -43,34 +43,37 @@
     height: 45%;
     width: auto;
   }
-  .profiledimond {
-    position: absolute;
-    right: 0;
-    top: 20%;
-    height: 40%;
-    width: auto;
-  }
-  .paraone { 
-    position: absolute;
-    height: 11%;
-    width: 55%;
-    top: 53%;
-    left: 5%;
-  }
-  .paratwo {
-    position: absolute;
-    height: 10%;
-    width: 50%;
-    top: 66%;
-    right: 5%;
-    text-align: right;
-  }
-  .parathree {
-    position: absolute;
-    height: 10%;
-    width: 60%;
-    top: 78%;
-    left: 5%;
+  
+  @media screen and (max-width: 668px) {
+    .profiledimond {
+      position: absolute;
+      right: 0;
+      top: 20%;
+      height: 40%;
+      width: auto;
+    }
+    .paraone { 
+      position: absolute;
+      height: 200px;
+      width: 200px;
+      top: 53%;
+      left: 5%;
+    }
+    .paratwo {
+      position: absolute;
+      height: 200px;
+      width: 200px;
+      top: 66%;
+      right: 5%;
+      text-align: right;
+    }
+    .parathree {
+      position: absolute;
+      height: 10%;
+      width: 60%;
+      top: 78%;
+      left: 5%;
+    }
   }
 }
 .jem {
@@ -85,4 +88,40 @@
   cursor: pointer;
   text-decoration: none;
   z-index: 2;
+}
+
+@media screen and (min-width: 668px) {
+  .profiledimond {
+    position: absolute;
+    right: 20%;
+    top: 20%;
+    height: 40%;
+    width: auto;
+  }
+  .paraone { 
+    position: absolute;
+    height: 200px;
+    width: 300px;
+    top: 53%;
+    left: 15%;
+    font-size: 1.4rem;
+  }
+  .paratwo {
+    position: absolute;
+    height: 200px;
+    width: 300px;
+    top: 66%;
+    right: 15%;
+    font-size: 1.4rem;
+    text-align: right;
+  }
+  .parathree {
+    position: absolute;
+    height: 10%;
+    width: 300px;
+    top: 78%;
+    left: 15%;
+    font-size: 1.4rem;
+  }
+
 }

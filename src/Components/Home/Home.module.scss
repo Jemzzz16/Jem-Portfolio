@@ -12,7 +12,7 @@
     top: 59%;
     left: 3%;
     font-size: 2rem;
-
+    z-index: 2;
   }
   .pink {
     position: absolute;
@@ -20,7 +20,7 @@
     width: auto;
     bottom: -5%;
     left: 0;
-
+    z-index: 1;
   }
   .orangedimond {
     position: absolute;
@@ -28,7 +28,7 @@
     width: auto;
     right: -5%;
     top: -15%;
-
+    z-index: 1;
   }
 }
 
@@ -43,15 +43,16 @@
   color: white;
   cursor: pointer;
   text-decoration: none;
-  z-index: 2;
+  z-index: 3;
 }
-
-// .laptop {
-//   position: absolute;
-//   height: 500px;
-//   width: auto;
-//   right: 0;
-//   bottom: 0;
-//   border: solid 2px fuchsia;
-//   z-index: 0;
-// }
+@media screen and (min-width: 668px) {
+  
+  .laptop {
+    position: absolute;
+    height: 500px;
+    width: auto;
+    right: -10%;
+    bottom: 0;
+    z-index: 0;
+  }
+}

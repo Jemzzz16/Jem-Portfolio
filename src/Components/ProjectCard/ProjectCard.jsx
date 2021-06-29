@@ -1,9 +1,8 @@
 import React from "react";
 import styles from "./Projects.module.scss";
 import Greendimond from '../../images/Green-dimond.png';
-import Orange from '../../images/Orangeoverlay.png';
-import Pink from '../../images/Pinkoverlay.png';
-import Green from '../../images/Greenoverlay.png';
+import Orangedimond from '../../images/Orangeoverlay.png';
+import Pinkdimond from '../../images/Pinkoverlay.png';
 
 const ProjectCard = () => {
   return (

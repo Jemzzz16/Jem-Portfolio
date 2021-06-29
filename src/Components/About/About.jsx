@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./About.module.scss";
 import Pinkdimond from '../../images/pinkdimondmobileabout.png';
-import Profiledimond from '../../images/Profilemobile.png';
+import Profiledimond from '../../images/Profiledimond.png';
 import greendimondabout from '../../images/greendimondabout.png';
 import { Link } from "react-router-dom";
 
@@ -26,14 +26,15 @@ const About = () => {
           your ideas 
           into something amazing!
         </p>
-        <ul className={styles.parathree}>
-          <li>HTML, CSS, SASS</li>
-          <li>JavaScript, React</li>
-          <li>Jest, Cypress, Enzyme</li>
-          <li>Github, OOP, TDD</li>
-          <li>Java</li>
-          <li>Spring, SQL, API</li>
-        </ul>
+        <div className={styles.parathree}>
+          <h3>.Tech Stack</h3>
+          <p>HTML, CSS, SASS</p>
+          <p>JavaScript, React</p>
+          <p>Jest, Cypress, Enzyme</p>
+          <p>Github, OOP, TDD</p>
+          <p>Java</p>
+          <p>Spring, SQL, API</p>
+        </div>
       </div>
     </>
   );

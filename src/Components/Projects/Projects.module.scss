@@ -6,19 +6,22 @@
   padding: 0;
   background-color: black;
   color: white;
+  overflow: hidden;
   h1 {
     margin-block-start: 0;
     margin-block-end: 0;
-    margin-inline-start: 0;
+    margin-inline-start: 5%;
     margin-inline-end: 0;
-    padding-top: 20%;
+    padding-top: 100px;
+    font-size: 2.4rem;
   }
+  
 }
 .dimond {
   position: absolute;
-  height: 100%;
+  height: 78%;
   width: auto;
-  right: -10%;
+  right: -12%;
   top: 8%;
   z-index: 1;
 }
@@ -34,4 +37,80 @@
   cursor: pointer;
   text-decoration: none;
   z-index: 2;
+}
+.one {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+  overflow: hidden;
+  z-index: -100;
+  h1 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 5%;
+    margin-inline-end: 0;
+    padding-top: 22%;
+    font-size: 2.4rem;
+  }
+}
+.two {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+  overflow: hidden;
+  z-index: -100;
+  h1 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 5%;
+    margin-inline-end: 0;
+    padding-top: 22%;
+    font-size: 2.4rem;
+  }
+}
+.three {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+  overflow: hidden;
+  z-index: -100;
+  h1 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 5%;
+    margin-inline-end: 0;
+    padding-top: 22%;
+    font-size: 2.4rem;
+  }
+}
+.four {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+  overflow: hidden;
+  z-index: -100;
+  h1 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 5%;
+    margin-inline-end: 0;
+    padding-top: 22%;
+    font-size: 2.4rem;
+  }
 }
