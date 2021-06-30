@@ -34,6 +34,7 @@ const About = () => {
           <p>Github, OOP, TDD</p>
           <p>Java</p>
           <p>Spring, SQL, API</p>
+          <p>LightRoom, PhotoShop</p>
         </div>
       </div>
     </>

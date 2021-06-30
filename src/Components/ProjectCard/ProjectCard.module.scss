@@ -1,0 +1,24 @@
+.card {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  border: solid 2px fuchsia;
+  z-index: 200;
+  .proImg{
+    position: absolute;
+    border-radius: 50px;
+    height: 35%;
+    width: auto;
+    top: 30%;
+    right: 12%;
+    z-index: 2;
+  }
+  .proOverlay {
+    position: absolute;
+    height: 78%;
+    width: auto;
+    right: -12%;
+    top: 8%;
+    z-index: 1;
+  }
+}

@@ -1,15 +1,23 @@
-import React from "react";
-import styles from "./Projects.module.scss";
-import Greendimond from '../../images/Green-dimond.png';
-import Orangedimond from '../../images/Orangeoverlay.png';
-import Pinkdimond from '../../images/Pinkoverlay.png';
+import React, { useState } from "react";
+import styles from './ProjectCard.module.scss'
 
-const ProjectCard = () => {
+const ProjectCard = (props) => {
+  const { id, title, img, overlay, description, githubURL, hostURL, tools } =
+    props.projects;
+
+
   return (
-    <>
-      <p>ProjectCard works</p>
-    </>
-  );
-};
+    <div className={styles.card}>
+      <p>{id}</p>
+      <h3>{title}</h3>
+      <img className={styles.proImg} src={img} alt='#'></img>
+      <img className={styles.proOverlay} src={overlay} alt='#'></img>
+      <p>{description}</p>
+      <p>{githubURL}</p>
+      <p>{hostURL}</p>
+      <p>{tools}</p>
+    </div>
+  )
+}
 
 export default ProjectCard;
