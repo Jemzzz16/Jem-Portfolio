@@ -7,7 +7,7 @@
     position: absolute;
     top: 70%;
     left: 3%;
-    font-size: 4rem;
+    font-size: 3rem;
     z-index: 2;
     .developer {
       text-indent: 15%;
@@ -31,7 +31,11 @@
   }
 }
 @media screen and (min-width: 668px) {
-  
+  .heading {
+    .title {
+      font-size: 6rem;
+    }
+  }
   .laptop {
     position: absolute;
     height: 500px;
