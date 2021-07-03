@@ -5,17 +5,17 @@
   top: 2%;
   height: 5%;
   width: 70%;
-  z-index: 11;
+  z-index: 11;font-size: 1.6rem;
   a {
-    margin-right: 10px;
+    margin-right: 20px;
     text-decoration: none;
   }
   li {
     text-decoration: none;
   }
 }
-.jem {
-  position: relative;
-  top: -10px;
-  font-size: 1.6rem;
+@media screen and (min-width: 668px) {
+  .navbar {
+      margin-left: 120px;
+  }
 }

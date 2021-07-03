@@ -1,10 +1,13 @@
-.aboutmain {
-  position: absolute;
-  height: 200vh;
-  width: 100vw;
-  background-color: black;
-  overflow: hidden;
-  
+
+// small screen
+@media screen and (max-width: 686px) {
+  .aboutmain {
+    position: absolute;
+    height: 180vh;
+    width: 100vw;
+    background-color: black;
+    overflow: hidden;
+  }
   .pinkdimond {
     position: absolute;
     right: 0%;
@@ -13,9 +16,6 @@
     width: auto;
   }
   
-} 
-// small screen
-@media screen and (max-width: 668px) {
   .greendimond {
     position: absolute;
     left: -15%;
@@ -24,52 +24,44 @@
     width: auto;
     z-index: 3;
   }
-  .about {
-    position: absolute;
-    left: 2%;
-    top: 8%;
-    z-index: 3;
-    font-size: 2rem;
-    font-weight: bold;
-    border-bottom: solid 2px white;
-    width: 100vw;
-  }
+  
   .profiledimond {
     position: absolute;
-    right: -5%;
-    top: 15%;
-    height: 27%;
-    width: auto;
+    top: 9%;
+    width: 100%;
+    height: auto;
     z-index: 1;
   }
-  .aboutmain {
-      font-size: 1.4rem;
-    .paraone { 
-      position: absolute;
-      height: 200px;
-      width: 200px;
-      top: 53%;
-      left: 5%;
-    }
-    .paratwo {
-      position: absolute;
-      height: 200px;
-      width: 200px;
-      top: 66%;
-      right: 5%;
-      text-align: right;
-    }
-    .parathree {
-      position: absolute;
-      height: 10%;
-      width: 60%;
-      top: 78%;
-      left: 5%;
+  .paraone { 
+    margin-top: 40px;
+    position: absolute;
+    height: 200px;
+    width: 300px;
+    top: 35%;
+    left: 10%;
+    font-size: 1.4rem;
+    h3 {
+      margin-top: 30px;
     }
   }
 }
 // large screen
-@media screen and (min-width: 668px) {
+@media screen and (min-width: 494px) {
+  .aboutmain {
+    position: absolute;
+    height: 200vh;
+    width: 100vw;
+    background-color: black;
+    overflow: hidden;
+    
+    .pinkdimond {
+      position: absolute;
+      right: 0%;
+      bottom: -6%;
+      height: 30%;
+      width: auto;
+    }
+  } 
   .greendimond {
     position: absolute;
     left: 0;
@@ -78,46 +70,24 @@
     width: auto;
     z-index: 3;
   }
-  .about {
-    position: absolute;
-    left: 2%;
-    top: 8%;
-    z-index: 3;
-    font-size: 2rem;
-    font-weight: bold;
-    border-bottom: solid 2px white;
-    width: 100vw;
-  }
+  
   .profiledimond {
     position: absolute;
-    right: 10%;
-    top: 15%;
-    height: 40%;
-    width: auto;
+    right: 20%;
+    top: 8%;
+    width: 494px;
+    height: 494px;
   }
   .paraone { 
+    margin-top: 40px;
     position: absolute;
     height: 200px;
     width: 300px;
-    top: 53%;
-    left: 18%;
+    top: 55%;
+    left: 10%;
     font-size: 1.4rem;
-  }
-  .paratwo {
-    position: absolute;
-    height: 200px;
-    width: 300px;
-    top: 66%;
-    right: 18%;
-    font-size: 1.4rem;
-    text-align: right;
-  }
-  .parathree {
-    position: absolute;
-    height: 10%;
-    width: 300px;
-    top: 75%;
-    left: 15%;
-    font-size: 1.4rem;
+    h3 {
+      margin-top: 30px;
+    }
   }
 }

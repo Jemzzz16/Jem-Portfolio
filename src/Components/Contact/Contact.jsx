@@ -1,16 +1,17 @@
 import React from "react";
 import styles from "./Contact.module.scss";
 import { AiFillGithub, AiFillInstagram, AiFillTwitterCircle, AiFillLinkedin } from "react-icons/ai";
-import { Link } from "react-router-dom";
+import phonepic from '../../images/Phonepic.jpg';
 import pinkdimond from '../../images/pinkdimondmobileabout.png'
 
 const Contact = () => {
   return (
     <>
       <div className={styles.socials}>
-        <h3>.Contact</h3>
+        <h1>.Contact</h1>
         <p>jemmaholmes16@gmail.com</p>
         <img className={styles.pinkdimond} src={pinkdimond} alt='#'></img>
+        <img className={styles.phone} src={phonepic} alt='#'></img>
         
         <a href="https://www.linkedin.com/in/jemma--holmes/">
           <AiFillLinkedin />

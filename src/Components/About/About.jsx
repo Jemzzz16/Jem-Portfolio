@@ -13,26 +13,32 @@ const About = () => {
         <img className={styles.pinkdimond} src={Pinkdimond} alt='#'></img>
         <img className={styles.greendimond} src={greendimondabout} alt='#'></img>
         <img className={styles.profiledimond} src={Profilepic} alt='#'></img>
-        <p className={styles.about}>.About</p>
-        <p className={styles.paraone}>
-          Hi I’m Jem, full stack 
-          Web developer, photographer 
+        <div className={styles.paraone}>
+          <p>
+          Hi I’m Jem, <br></br>Software Engineer, photographer<br>
+          </br> 
           and enthusiastic professional.
-        </p>
-        <p className={styles.paratwo}>
+          <br></br>
+          <br></br>
           Let me capture and develop 
           your ideas 
           into something amazing!
-        </p>
-        <div className={styles.parathree}>
+          <br></br>
           <h3>.Tech Stack</h3>
-          <p>HTML, CSS, SASS</p>
-          <p>JavaScript, React</p>
-          <p>Jest, Cypress, Enzyme</p>
-          <p>Github, OOP, TDD</p>
-          <p>Java</p>
-          <p>Spring, SQL, API</p>
-          <p>LightRoom, PhotoShop</p>
+          HTML, CSS, SASS
+          <br></br>
+          JavaScript, React
+          <br></br>
+          Jest, Cypress, Enzyme
+          <br></br>
+          Github, OOP, TDD
+          <br></br>
+          Java
+          <br></br>
+          Spring, SQL, API
+          <br></br>
+          LightRoom, PhotoShop
+          </p>
         </div>
       </div>
     </>

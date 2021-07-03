@@ -3,9 +3,25 @@ import styles from "./Home.module.scss";
 import pinkdimond from '../../images/pink-home-dimond.png';
 import orangedimond from '../../images/Orangedimond.png';
 import Laptop from '../../images/Laptop.jpg';
-import { Link } from "react-router-dom";
+import useDencrypt  from "use-dencrypt-effect";
+
+const value = ["Software /", "Developer"];
 
 const Home = () => {
+  const { result, dencrypt } = useDencrypt();
+
+  // software
+  React.useEffect(() => {
+    let i = 0;
+    const action = setInterval(() => {
+      dencrypt(value[i]);
+      i = i === value.length - 1 ? 0 : i + 1;
+      
+    }, 2000);
+ 
+    return () => clearInterval(action);
+  }, []);
+   
   return (
     <>
       <div className={styles.heading}>
@@ -15,8 +31,7 @@ const Home = () => {
         <img className={styles.laptop} src={Laptop} alt='laptop'></img>
 
         <div className={styles.title}>
-          <h1>Software /</h1>
-          <h1 className={styles.developer}>Developer</h1>
+          {result}
         </div>
       </div>
     </>
