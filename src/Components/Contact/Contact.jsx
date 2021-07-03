@@ -7,8 +7,6 @@ import pinkdimond from '../../images/pinkdimondmobileabout.png'
 const Contact = () => {
   return (
     <>
-      
-      <p className={styles.jem}><Link to='/'>.Jem</Link></p>
       <div className={styles.socials}>
         <h3>.Contact</h3>
         <p>jemmaholmes16@gmail.com</p>

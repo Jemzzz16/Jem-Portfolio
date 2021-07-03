@@ -1,12 +1,11 @@
 .navbar {
   position: absolute;
   align-items: flex-start;
-  left: 10%;
+  left: 40px;
+  top: 2%;
   height: 5%;
   width: 70%;
-  color: white;
   z-index: 11;
-  overflow: hidden;
   a {
     margin-right: 10px;
     text-decoration: none;
@@ -15,4 +14,8 @@
     text-decoration: none;
   }
 }
-
+.jem {
+  position: relative;
+  top: -10px;
+  font-size: 1.6rem;
+}

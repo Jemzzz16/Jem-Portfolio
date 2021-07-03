@@ -11,12 +11,12 @@ const Home = () => {
       <div className={styles.heading}>
         <img className={styles.orangedimond} src={orangedimond} alt='orange'></img>
         <img className={styles.pink} src={pinkdimond} alt='pink'></img>
-        <p className={styles.jem}><Link to='/'>.Jem</Link></p>
         
         <img className={styles.laptop} src={Laptop} alt='laptop'></img>
 
         <div className={styles.title}>
-          <h1>Web /<br></br> Developer</h1>
+          <h1>Software /</h1>
+          <h1 className={styles.developer}>Developer</h1>
         </div>
       </div>
     </>

@@ -1,18 +1,17 @@
 .heading {
   height: 100vh;
   width: 100vw;
-  margin: 0;
-  padding: 0;
-  color: white;
-  background-color: black;
   position: absolute;
   overflow: hidden;
   .title { 
     position: absolute;
-    top: 59%;
+    top: 65%;
     left: 3%;
-    font-size: 2rem;
+    font-size: 1.8rem;
     z-index: 2;
+    .developer {
+      text-indent: 15%;
+    }
   }
   .pink {
     position: absolute;
@@ -31,28 +30,14 @@
     z-index: 1;
   }
 }
-
-.jem {
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  right: 2%;
-  top: 1%;
-  font-size: 2rem;
-  text-decoration: underline;
-  color: white;
-  cursor: pointer;
-  text-decoration: none;
-  z-index: 3;
-}
 @media screen and (min-width: 668px) {
   
   .laptop {
     position: absolute;
     height: 500px;
     width: auto;
-    right: -10%;
-    bottom: 0;
+    right: -5%;
+    bottom: -5%;
     z-index: 0;
   }
 }

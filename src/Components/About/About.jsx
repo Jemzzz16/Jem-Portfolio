@@ -1,20 +1,18 @@
 import React from "react";
 import styles from "./About.module.scss";
 import Pinkdimond from '../../images/pinkdimondmobileabout.png';
-import Profiledimond from '../../images/Profiledimond.png';
+import Profilepic from '../../images/profilepic.jpg';
 import greendimondabout from '../../images/greendimondabout.png';
-import { Link } from "react-router-dom";
+
 
 
 const About = () => {
   return (
     <>
-      <p className={styles.jem}><Link to='/'>.Jem</Link></p>
-      
       <div className={styles.aboutmain}>
         <img className={styles.pinkdimond} src={Pinkdimond} alt='#'></img>
         <img className={styles.greendimond} src={greendimondabout} alt='#'></img>
-        <img className={styles.profiledimond} src={Profiledimond} alt='#'></img>
+        <img className={styles.profiledimond} src={Profilepic} alt='#'></img>
         <p className={styles.about}>.About</p>
         <p className={styles.paraone}>
           Hi I’m Jem, full stack 

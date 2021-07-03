@@ -1,39 +1,103 @@
-.main {
-  position: absolute;
+.card {
+  position: relative;
+  background-color: black;
   height: 100vh;
   width: 100vw;
-  margin: 0;
-  padding: 0;
-  background-color: black;
-  color: white;
-  // overflow: hidden;
-  h1 {
-    margin-block-start: 0;
-    margin-block-end: 0;
-    margin-inline-start: 5%;
-    margin-inline-end: 0;
-    padding-top: 100px;
-    font-size: 2.4rem;
+  overflow: hidden;
+  padding-left: 5%;
+  .projectnumber {
+    border-bottom: solid 2px white;
   }
 }
-.dimond {
-  position: absolute;
-  height: 78%;
-  width: auto;
-  right: -12%;
-  top: 8%;
-  z-index: 1;
+
+// small screen
+@media screen and (max-width: 668px) {
+  .projectnumber {
+    margin-top: 60px;
+    font-size: 2.5rem;
+    font-weight: bolder;
+  }
+  .proImg {
+    position: absolute;
+    right: 50px;
+    height: 35%;
+    width: auto;
+    top: 25%;
+    z-index: 2; 
+  }
+  .proOverlay {
+    position: absolute;
+    height: 78%;
+    width: auto;
+    right: -70px;
+    top: 15%;
+    z-index: 1;
+  }
+  .tools {
+    margin-top: 200px;
+    svg{
+      justify-content: space-between 40px;
+      height: 30px;
+      width: auto;
+      margin-right: 10px;
+    }
+  }
+
 }
-.jem {
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  right: 2%;
-  top: 1%;
-  font-size: 2rem;
-  text-decoration: underline;
-  color: white;
-  cursor: pointer;
-  text-decoration: none;
-  z-index: 2;
+
+// large screen
+@media screen and (min-width: 668px) {
+  .projectnumber {
+    margin-top: 60px;
+    font-size: 3rem;
+    font-weight: bolder;
+  }
+  .proImg {
+    position: absolute;
+    right: 28%;
+    height: 60%;
+    width: auto;
+    top: 25%;
+    z-index: 2; 
+  }
+  .proOverlay {
+    position: absolute;
+    height: 90%;
+    width: auto;
+    right: -30px;
+    top: 10%;
+    z-index: 1;
+  }
+  .tools {
+    margin-top: 250px;
+    svg{
+      justify-content: space-between 50px;
+      height: 60px;
+      width: auto;
+      margin-right: 30px;
+    }
+  }
+
+}
+// extra large screen
+@media screen and (min-width: 900px) {
+  .card {
+    overflow: hidden;
+  }
+  .proImg {
+    position: absolute;
+    right: 30%;
+    height: 66%;
+    width: auto;
+    top: 22%;
+    z-index: 2; 
+  }
+  .proOverlay {
+    position: absolute;
+    height: 90%;
+    width: auto;
+    right: -30px;
+    top: 10%;
+    z-index: 1;
+  }
 }

@@ -5,10 +5,8 @@
   font-size: 1.2rem;
   height: 100vh;
   width: 100vw;
-  background-color: black;
-  color: white;
   position: absolute;
-  overflow: hidden;
+  
   h3 {
     padding-top: 60px;
     padding-left: 20px;
@@ -26,20 +24,6 @@ a {
     height: 50%;
     width: auto;
   }
-}
-
-.jem {
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  right: 2%;
-  top: 1%;
-  font-size: 2rem;
-  text-decoration: underline;
-  color: white;
-  cursor: pointer;
-  text-decoration: none;
-  z-index: 2;
 }
 .pinkdimond {
   position: absolute;

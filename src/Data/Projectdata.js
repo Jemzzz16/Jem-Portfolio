@@ -1,13 +1,31 @@
-import Javagame from '../images/Javascriptgame.png'
-import calculator from '../images/Calculator.png'
-import morsecode from '../images/Morsecode.png'
-import PPD from '../images/PPD.png'
+import Javagame from '../images/Javasciptgame.jpg';
+import calculator from '../images/Calculator.jpg';
+import morsecode from '../images/morse.jpg';
+import punkbeer from '../images/punkbeer.jpg';
+import PPD from '../images/PPD.png';
 import GPD from '../images/GPD.png';
 import OPD from '../images/OPD.png';
+import { 
+  AiFillHtml5
+ } from 'react-icons/ai';
+ import { 
+  FaCss3Alt,
+  FaReact 
+ } from 'react-icons/fa';
+ import { 
+  SiJavascript,
+  SiJava,
+  SiJest,
+  SiSass 
+ } from 'react-icons/si';
+ import { 
+  FiFigma
+ } from 'react-icons/fi';
+
 
 const projects = [
   {
-    id: "1",
+    id: ".Project 1",
     img: Javagame,
     overlay: GPD,
     title: "Dave the Dragon",
@@ -15,37 +33,58 @@ const projects = [
     description: "javascript game",
     githubURL: "",
     hostURL: "",
-    tools: ""
+      tools: [
+      <AiFillHtml5 />,
+      <FaCss3Alt />,
+      <SiJavascript /> ,
+      <FiFigma />
+    ]
   },
   {
-    id: "2",
+    id: ".Project 2",
     img: calculator,
     overlay: PPD,
     title: "Calculator",
     description: "javascript calculator",
     githubURL: "",
     hostURL: "",
-    tools: ""
+    tools: [
+      <AiFillHtml5 />,
+      <FaCss3Alt />,
+      <SiJavascript />
+    ]
   },
   {
-    id: "3",
+    id: ".Project 3",
     img: morsecode,
     overlay: OPD,
     title: "Translator",
     description: "Translate English to Morse Code",
     githubURL: "",
     hostURL: "",
-    tools: ""
+    tools: [
+      <AiFillHtml5 />,
+      <FaCss3Alt />,
+      <SiJavascript />,
+      <SiJest />,
+      <SiSass /> 
+    ]
   },
   {
-    id: "4",
-    img: "",
+    id: ".Project 4",
+    img: punkbeer,
     overlay: PPD,
     title: "Beer Search",
     description: "Punk beer search",
     githubURL: "",
     hostURL: "",
-    tools: ""
+    tools: [
+      <AiFillHtml5 />,
+      <FaCss3Alt />,
+      <SiJavascript /> ,
+      <SiSass />,
+      <FaReact />
+    ]
   },
 ];
 export default projects;
