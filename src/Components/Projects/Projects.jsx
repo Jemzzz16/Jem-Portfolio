@@ -8,6 +8,11 @@ import projects from "../../Data/Projectdata";
 
 const Projects = () => {
   const responsive = {
+    desktoplarge: {
+      breakpoint: { max: 1800, min: 769 },
+      items: 1,
+      slidesToSlide: 1, // optional, default to 1.
+    },
     desktop: {
       breakpoint: { max: 1600, min: 769 },
       items: 1,
