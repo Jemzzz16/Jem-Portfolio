@@ -1,7 +1,7 @@
 import './App.module.scss';
 import Routes from './Container/Routes/Routes';
 import Navbar from './Components/Navbar/Navbar';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 import styles from './App.module.scss';
 
 
