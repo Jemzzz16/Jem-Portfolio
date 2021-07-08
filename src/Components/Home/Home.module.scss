@@ -6,8 +6,8 @@
   .title { 
     position: absolute;
     top: 70%;
-    left: 3%;
-    font-size: 3rem;
+    left: 5%;
+    font-size: 4rem;
     z-index: 2;
     .developer {
       text-indent: 15%;
@@ -33,7 +33,7 @@
 @media screen and (min-width: 668px) {
   .heading {
     .title {
-      font-size: 6rem;
+      font-size: 8rem;
     }
   }
   .laptop {

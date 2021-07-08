@@ -11,7 +11,16 @@
 }
 
 // small screen
-@media screen and (max-width: 668px) {
+@media screen and (max-width: 390px) {
+  .card {
+    h6 {
+      font-weight: lighter;
+      font-size: 2rem;
+    }
+    p {
+      font-size: 1.6rem;
+    }
+  }
   .projectnumber {
     margin-top: 60px;
     font-size: 2.5rem;
@@ -22,54 +31,76 @@
     right: 50px;
     height: 35%;
     width: auto;
-    top: 25%;
+    top: 36%;
     z-index: 2; 
   }
   .proOverlay {
     position: absolute;
-    height: 78%;
+    height: 100%;
     width: auto;
-    right: -70px;
-    top: 15%;
+    right: -120px;
+    top: 0;
     z-index: 1;
   }
   .tools {
-    margin-top: 500px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 60px;
     svg{
       justify-content: space-between 40px;
-      height: 30px;
+      height: 50px;
       width: auto;
       margin-right: 10px;
     }
   }
-
+  .links {
+    svg {
+      height: 30px;
+      width: auto;
+      margin-top: 10px;
+      padding: 0;
+      padding-right: 20px;
+    }
+  }
 }
 
 // large screen
-@media screen and (min-width: 668px) {
+@media screen and (min-width: 750px) {
+  .card {
+    
+    h6 {
+      font-weight: lighter;
+      font-size: 3rem;
+    }
+    p {
+      font-size: 1.8rem;
+    }
+  }
   .projectnumber {
-    margin-top: 60px;
-    font-size: 3rem;
+    margin-top: 90px;
+    font-size: 4rem;
     font-weight: bolder;
   }
   .proImg {
     position: absolute;
-    right: 28%;
-    height: 60%;
+    right: 15%;
+    height: 40%;
     width: auto;
-    top: 25%;
+    top: 32%;
     z-index: 2; 
   }
   .proOverlay {
     position: absolute;
-    height: 90%;
+    height: 100%;
     width: auto;
-    right: -30px;
-    top: 10%;
+    right: -100px;
+    top: 0;
     z-index: 1;
   }
   .tools {
-    margin-top: 250px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 100px;
     svg{
       justify-content: space-between 50px;
       height: 60px;
@@ -77,27 +108,67 @@
       margin-right: 30px;
     }
   }
-
+  .links {
+    svg {
+      height: 60px;
+      width: auto;
+      margin-top: 20px;
+      padding: 0;
+      padding-right: 20px;
+    }
+  }
 }
+
 // extra large screen
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1200px) {
   .card {
-    overflow: hidden;
+    h6 {
+      font-weight: lighter;
+      font-size: 3rem;
+    }
+    p {
+      font-size: 2rem;
+    }
+  }
+  .projectnumber {
+    margin-top: 80px;
+    font-size: 5rem;
+    font-weight: bolder;
   }
   .proImg {
     position: absolute;
-    right: 30%;
-    height: 66%;
+    right: 20%;
+    height: 50%;
     width: auto;
-    top: 22%;
+    top: 25%;
     z-index: 2; 
   }
   .proOverlay {
     position: absolute;
-    height: 90%;
+    height: 100%;
     width: auto;
     right: -30px;
-    top: 10%;
+    top: 0;
     z-index: 1;
+  }
+  .tools {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 100px;
+    svg{
+      justify-content: space-between 50px;
+      height: 70px;
+      width: auto;
+      margin-right: 30px;
+    }
+  }
+  .links {
+    svg {
+      height: 50px;
+      width: auto;
+      margin-top: 20px;
+      padding: 0;
+      padding-right: 20px;
+    }
   }
 }

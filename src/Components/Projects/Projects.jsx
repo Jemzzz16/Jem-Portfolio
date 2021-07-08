@@ -5,11 +5,17 @@ import { Link } from "react-router-dom";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import projects from "../../Data/Projectdata";
+import { AiOutlineGithub, AiOutlineHome } from 'react-icons/ai';
 
 const Projects = () => {
   const responsive = {
+    desktopXlarge: {
+      breakpoint: { max: 2700, min: 1800 },
+      items: 1,
+      slidesToSlide: 1, // optional, default to 1.
+    },
     desktoplarge: {
-      breakpoint: { max: 1800, min: 769 },
+      breakpoint: { max: 1800, min: 1600 },
       items: 1,
       slidesToSlide: 1, // optional, default to 1.
     },
@@ -44,19 +50,21 @@ const Projects = () => {
         keyBoardControl={true}
         customTransition="all .5"
         transitionDuration={500}
-        containerClass="card"
-        removeArrowOnDeviceType={["tablet", "mobile"]}>
+        containerClass="card">
+        {/* // removeArrowOnDeviceType={["mobile"]}> */}
         
         {projects.map(projects => (
           <div className={styles.card} key={projects.id}>
             <h1 className={styles.projectnumber}>{projects.id}</h1>
-            <h3>{projects.title}</h3>
+            <h6>{projects.title}</h6>
             <img className={styles.proImg} src={projects.img} alt='#'></img>
             <img className={styles.proOverlay} src={projects.overlay} alt='#'></img>
             <p>{projects.description}</p>
-            <p>{projects.githubURL}</p>
-            <p>{projects.hostURL}</p>
             <p className={styles.tools}>{projects.tools}</p>
+            <div className={styles.links}>
+              <a href={projects.githubURL}><AiOutlineGithub /></a>
+              <a href={projects.hostURL}><AiOutlineHome /></a>
+            </div>
           </div>
         ))}
       </Carousel>

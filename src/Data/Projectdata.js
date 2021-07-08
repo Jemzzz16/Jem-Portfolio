@@ -6,7 +6,8 @@ import PPD from '../images/PPD.png';
 import GPD from '../images/GPD.png';
 import OPD from '../images/OPD.png';
 import { 
-  AiFillHtml5
+  AiFillHtml5,
+  AiOutlineGithub
  } from 'react-icons/ai';
  import { 
   FaCss3Alt,
@@ -31,8 +32,8 @@ const projects = [
     title: "Dave the Dragon",
     
     description: "javascript game",
-    githubURL: "",
-    hostURL: "",
+    githubURL: "https://github.com/Jemzzz16/Javascript-Game",
+    hostURL: "https://jemzzz16.github.io/Javascript-Game/",
       tools: [
       <AiFillHtml5 />,
       <FaCss3Alt />,
