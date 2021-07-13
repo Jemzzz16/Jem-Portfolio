@@ -14,7 +14,7 @@
 }
 
 // small screen
-@media screen and (max-width: 390px) {
+@media screen and (min-width: 280px) {
   .card {
     h6 {
       font-weight: lighter;
@@ -79,7 +79,6 @@
     }
   }
   .projectnumber {
-    margin-top: 90px;
     font-size: 4rem;
     font-weight: bolder;
   }

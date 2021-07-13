@@ -43,7 +43,7 @@
   width: 250px;
   bottom: 230px;
   left: 5%;
-  font-size: 1.1rem;
+  font-size: 1rem;
   h3 {
     margin-top: 30px;
   }
@@ -71,7 +71,7 @@
     height: 200px;
     width: 300px;
     top: 440px;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
 }
 // medium screen
@@ -89,9 +89,15 @@
   .paraone { 
     margin-left: 5%;
     height: 200px;
-    width: 430px;
-    top: 800px;
-    font-size: 2rem;
+    width: 600px;
+    top: 700px;
+    font-size: 1.8rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .paraone { 
+    top: 750px;
+    font-size: 2.4rem;
   }
 }
 // large screen
