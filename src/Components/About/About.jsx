@@ -3,6 +3,7 @@ import styles from "./About.module.scss";
 import Pinkdimond from '../../images/pinkdimondmobileabout.png';
 import Profilepic from '../../images/profilepic.jpg';
 import greendimondabout from '../../images/greendimondabout.png';
+import square from '../../images/square.png';
 
 
 
@@ -13,6 +14,7 @@ const About = () => {
         <img className={styles.pinkdimond} src={Pinkdimond} alt='#'></img>
         <img className={styles.greendimond} src={greendimondabout} alt='#'></img>
         <img className={styles.profiledimond} src={Profilepic} alt='#'></img>
+        <img className={styles.square} src={square} alt='#'></img>
         <div className={styles.paraone}>
           <p>
           Hi I’m Jem, <br></br>Software Engineer, photographer<br>

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import projects from "../../Data/Projectdata";
-import { AiOutlineGithub, AiOutlineHome } from 'react-icons/ai';
+import { AiOutlineGithub, AiFillPlayCircle } from 'react-icons/ai';
 
 const Projects = () => {
   const responsive = {
@@ -63,7 +63,7 @@ const Projects = () => {
             <p className={styles.tools}>{projects.tools}</p>
             <div className={styles.links}>
               <a href={projects.githubURL}><AiOutlineGithub /></a>
-              <a href={projects.hostURL}><AiOutlineHome /></a>
+              <a href={projects.hostURL}><AiFillPlayCircle /></a>
             </div>
           </div>
         ))}

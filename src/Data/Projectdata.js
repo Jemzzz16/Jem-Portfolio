@@ -2,26 +2,33 @@ import Javagame from '../images/Javasciptgame.jpg';
 import calculator from '../images/Calculator.jpg';
 import morsecode from '../images/morse.jpg';
 import punkbeer from '../images/punkbeer.jpg';
+import grandbequest from '../images/grandbequest.jpg';
+
 import PPD from '../images/PPD.png';
 import GPD from '../images/GPD.png';
 import OPD from '../images/OPD.png';
 import { 
   AiFillHtml5,
-  AiOutlineGithub
+  AiOutlineGithub,
+  AiFillApi
  } from 'react-icons/ai';
  import { 
   FaCss3Alt,
-  FaReact 
+  FaReact, 
  } from 'react-icons/fa';
  import { 
   SiJavascript,
   SiJava,
   SiJest,
-  SiSass 
+  SiSass,
+  SiFirebase
  } from 'react-icons/si';
  import { 
   FiFigma
  } from 'react-icons/fi';
+ import {
+  GrTest
+ } from 'react-icons/gr';
 
 
 const projects = [
@@ -35,10 +42,11 @@ const projects = [
     githubURL: "https://github.com/Jemzzz16/Javascript-Game",
     hostURL: "https://jemzzz16.github.io/Javascript-Game/",
       tools: [
+      <FiFigma />,
       <AiFillHtml5 />,
       <FaCss3Alt />,
       <SiJavascript /> ,
-      <FiFigma />
+      
     ]
   },
   {
@@ -47,12 +55,13 @@ const projects = [
     overlay: PPD,
     title: "Calculator",
     description: "javascript calculator",
-    githubURL: "",
+    githubURL: "https://github.com/Jemzzz16/Javascript-Game",
     hostURL: "",
     tools: [
       <AiFillHtml5 />,
       <FaCss3Alt />,
-      <SiJavascript />
+      <SiJavascript />,
+      <GrTest />
     ]
   },
   {
@@ -61,8 +70,8 @@ const projects = [
     overlay: OPD,
     title: "Translator",
     description: "Translate English to Morse Code",
-    githubURL: "",
-    hostURL: "",
+    githubURL: "https://github.com/Jemzzz16/morse-translator",
+    hostURL: "https://jemzzz16.github.io/morse-translator/",
     tools: [
       <AiFillHtml5 />,
       <FaCss3Alt />,
@@ -77,15 +86,28 @@ const projects = [
     overlay: PPD,
     title: "Beer Search",
     description: "Punk beer search",
-    githubURL: "",
-    hostURL: "",
+    githubURL: "https://github.com/Jemzzz16/punkbeer-api",
+    hostURL: "https://punkbeer-api.web.app",
     tools: [
-      <AiFillHtml5 />,
-      <FaCss3Alt />,
-      <SiJavascript /> ,
+      <FaReact />,
       <SiSass />,
-      <FaReact />
+      <AiFillApi />
     ]
   },
+{
+  id: ".Project 5",
+  img: grandbequest,
+  overlay: GPD,
+  title: "Grand-Bequest",
+  description: "Client project",
+  githubURL: "https://github.com/nology-tech/grand-bequest",
+  hostURL: "https://grand-bequest-8ee46.web.app/",
+  tools: [
+    <FiFigma />,
+    <FaReact />,
+    <SiSass />,
+    <SiFirebase />
+  ]
+},
 ];
 export default projects;

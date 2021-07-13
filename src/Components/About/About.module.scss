@@ -1,93 +1,118 @@
+.aboutmain {
+  position: absolute;
+  height: 150vh;
+  width: 100vw;
+  background-color: black;
+  overflow: hidden;
+}
+.pinkdimond {
+  position: absolute;
+  right: 0%;
+  bottom: -6%;
+  height: 30%;
+  width: auto;
+}
+.greendimond {
+  position: absolute;
+  left: -10px;
+  top: -2%;
+  height: 45%;
+  width: auto;
+  z-index: 3;
+}
+.profiledimond {
+  position: absolute;
+  top: 150px;
+  right: 30px;
+  height: 200px;
+  width: auto;
+  z-index: 1;
+}
+.square {
+  position: absolute;
+  top: 170px;
+  right: 10px;
+  height: 200px;
+  width: auto;
+  z-index: 0;
+}
+.paraone { 
+  margin-bottom: 30px;
+  position: absolute;
+  height: 200px;
+  width: 250px;
+  bottom: 230px;
+  left: 5%;
+  font-size: 1.1rem;
+  h3 {
+    margin-top: 30px;
+  }
+}
 
 // small screen
-@media screen and (max-width: 686px) {
-  .aboutmain {
-    position: absolute;
-    height: 180vh;
-    width: 100vw;
-    background-color: black;
-    overflow: hidden;
-  }
-  .pinkdimond {
-    position: absolute;
-    right: 0%;
-    bottom: -6%;
-    height: 30%;
-    width: auto;
-  }
-  
+@media screen and (min-width: 360px) {
   .greendimond {
-    position: absolute;
-    left: -15%;
-    top: -5.8%;
+    left: -30px;
+    top: -60px;
     height: 45%;
-    width: auto;
-    z-index: 3;
   }
-  
   .profiledimond {
-    position: absolute;
-    top: 9%;
-    width: 100%;
-    height: auto;
-    z-index: 1;
+    top: 90px;
+    right: 5%;
+    height: 300px;
+  }
+  .square {
+    top: 110px;
+    right: 1%;
+    height: 300px;
   }
   .paraone { 
-    margin-top: 40px;
-    position: absolute;
+    margin: 3%;
     height: 200px;
     width: 300px;
-    top: 35%;
-    left: 10%;
-    font-size: 1.4rem;
-    h3 {
-      margin-top: 30px;
-    }
+    top: 440px;
+    font-size: 1.3rem;
+  }
+}
+// medium screen
+@media screen and (min-width: 766px) {
+  .profiledimond {
+    right: 10%;
+    top: 8%;
+    height: 500px;
+  }
+  .square {
+    top: 10%;
+    right: 5%;
+    height: 500px;
+  }
+  .paraone { 
+    margin-left: 5%;
+    height: 200px;
+    width: 430px;
+    top: 800px;
+    font-size: 2rem;
   }
 }
 // large screen
-@media screen and (min-width: 494px) {
-  .aboutmain {
-    position: absolute;
-    height: 200vh;
-    width: 100vw;
-    background-color: black;
-    overflow: hidden;
-    
-    .pinkdimond {
-      position: absolute;
-      right: 0%;
-      bottom: -6%;
-      height: 50%;
-      width: auto;
-    }
-  } 
-  .greendimond {
-    position: absolute;
-    left: 0;
-    top: 0%;
-    height: 45%;
-    width: auto;
-    z-index: 3;
-  }
-  
+@media screen and (min-width: 1200px) {
   .profiledimond {
-    position: absolute;
-    right: 20%;
+    right: 10%;
     top: 8%;
-    width: 494px;
-    height: 494px;
+    height: 400px;
+  }
+  .square { 
+    top: 150px;
+    right: 5%;
+    height: 400px;
   }
   .paraone { 
     margin-top: 40px;
-    position: absolute;
     height: 200px;
-    width: 300px;
-    top: 55%;
+    width: 400px;
+    top: 40%;
     left: 10%;
     font-size: 1.4rem;
-    h3 {
-      margin-top: 30px;
-    }
+    font-weight: bold;
   }
 }

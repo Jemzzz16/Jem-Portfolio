@@ -8,6 +8,7 @@
     top: 70%;
     left: 5%;
     font-size: 4rem;
+    font-weight: bolder;
     z-index: 2;
     .developer {
       text-indent: 15%;
@@ -30,12 +31,15 @@
     z-index: 1;
   }
 }
-@media screen and (min-width: 668px) {
+
+@media screen and (min-width: 600px) {
   .heading {
     .title {
       font-size: 8rem;
     }
   }
+}
+@media screen and (min-width: 1000px) {
   .laptop {
     position: absolute;
     height: 500px;
