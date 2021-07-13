@@ -33,15 +33,15 @@
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 750px) {
   .navbar {
     position: absolute;
     align-items: flex-start;
     top: 2%;
     height: 5%;
     width: 60%;
-    // border: solid 2px fuchsia;
-    z-index: 11;font-size: 1.8rem;
+    z-index: 11;
+    font-size: 1.6rem;
     margin-left: 5%;
     a {
       margin-right: 20px;

@@ -6,10 +6,15 @@
   overflow: hidden;
   padding-left: 5%;
   .projectnumber {
+    font-weight: bolder;
+    padding-top: 60px;
     border-bottom: solid 2px white;
   }
+  h6 {
+    font-weight: lighter;
+  }
   p {
-    z-index: 5;
+    z-index: 4;
   }
 }
 
@@ -17,7 +22,6 @@
 @media screen and (min-width: 280px) {
   .card {
     h6 {
-      font-weight: lighter;
       font-size: 1.4rem;
     }
     p {
@@ -25,8 +29,7 @@
     }
   }
   .projectnumber {
-    padding-top: 50px;
-    font-weight: bolder;
+    font-size: 2rem;
   }
   .proImg {
     position: absolute;
@@ -69,18 +72,15 @@
 // large screen
 @media screen and (min-width: 750px) {
   .card {
-    
     h6 {
-      font-weight: lighter;
-      font-size: 3rem;
+      font-size: 2.4rem;
     }
     p {
-      font-size: 1.8rem;
+      font-size: 1.2rem;
     }
   }
   .projectnumber {
-    font-size: 4rem;
-    font-weight: bolder;
+    font-size: 3rem;
   }
   .proImg {
     position: absolute;
@@ -101,17 +101,17 @@
   .tools {
     position: absolute;
     bottom: 0;
-    margin-bottom: 100px;
+    margin-bottom: 75px;
     svg{
       justify-content: space-between 50px;
-      height: 60px;
+      height: 40px;
       width: auto;
       margin-right: 30px;
     }
   }
   .links {
     svg {
-      height: 60px;
+      height: 50px;
       width: auto;
       margin-top: 20px;
       padding: 0;
@@ -124,18 +124,13 @@
 @media screen and (min-width: 1200px) {
   .card {
     h6 {
-      font-weight: lighter;
-      font-size: 3rem;
+      font-size: 2.6rem;
     }
     p {
-      font-size: 2rem;
+      font-size: 1.6rem;
     }
   }
-  .projectnumber {
-    margin-top: 80px;
-    font-size: 4rem;
-    font-weight: bolder;
-  }
+  
   .proImg {
     position: absolute;
     right: 25%;

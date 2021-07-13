@@ -6,7 +6,8 @@
   width: 100vw;
   overflow: hidden;
   h1 {
-    padding-top: 40px;
+    font-size: 2rem;
+    padding-top: 60px;
     border-bottom: solid 2px white;
     width: 100vw;
     font-weight: bolder;
@@ -51,8 +52,6 @@
       font-size: 2rem;
       svg {
         padding: 20px 0px 20px 0;
-        height: 90px;
-        width: auto;
         z-index: 1;
       }
     }
@@ -60,6 +59,9 @@
 }
 @media screen and (min-width: 1200px) {
   .socials {
+    h1 {
+      font-size: 3rem;
+    }
     .phone {
       position: absolute;
       height: 50%;
@@ -69,15 +71,9 @@
       z-index: 1;
     }
     .header {
-      display: flex;
-      flex-direction: column;
-      height: 800px;
-      width: 220px;
-      margin-left: 5%;
-      padding-top: 40px;
       svg {
         padding: 20px 0px 20px 0;
-        height: 50px;
+        height: 60px;
         width: auto;
         z-index: 1;
       }
