@@ -55,7 +55,7 @@ const projects = [
     overlay: PPD,
     title: "Calculator",
     description: "javascript calculator",
-    githubURL: "https://github.com/Jemzzz16/Javascript-Game",
+    githubURL: "",
     hostURL: "",
     tools: [
       <AiFillHtml5 />,
