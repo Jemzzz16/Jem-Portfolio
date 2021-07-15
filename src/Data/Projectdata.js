@@ -3,6 +3,8 @@ import calculator from '../images/Calculator.jpg';
 import morsecode from '../images/morse.jpg';
 import punkbeer from '../images/punkbeer.jpg';
 import grandbequest from '../images/grandbequest.jpg';
+import nologer from '../images/nologer.jpg';
+import winetracker from '../images/wine.jpg';
 
 import PPD from '../images/PPD.png';
 import GPD from '../images/GPD.png';
@@ -29,6 +31,9 @@ import {
  import {
   GrTest
  } from 'react-icons/gr';
+ import {
+  CgCloud
+ } from 'react-icons/cg'
 
 
 const projects = [
@@ -37,7 +42,6 @@ const projects = [
     img: Javagame,
     overlay: GPD,
     title: "Dave the Dragon",
-    
     description: "javascript game",
     githubURL: "https://github.com/Jemzzz16/Javascript-Game",
     hostURL: "https://jemzzz16.github.io/Javascript-Game/",
@@ -46,26 +50,72 @@ const projects = [
       <AiFillHtml5 />,
       <FaCss3Alt />,
       <SiJavascript /> ,
-      
     ]
   },
   {
     id: ".Project 2",
-    img: calculator,
+    img: nologer,
     overlay: PPD,
-    title: "Calculator",
-    description: "javascript calculator",
-    githubURL: "",
-    hostURL: "",
+    title: "Student and Courses",
+    description: "FULL STACK application",
+    githubURL: "https://github.com/Jemzzz16/Nologer-fullstack.git",
+    hostURL: "https://github.com/Jemzzz16/Nologer-fullstack.git",
     tools: [
-      <AiFillHtml5 />,
-      <FaCss3Alt />,
-      <SiJavascript />,
-      <GrTest />
+      <FaReact />,
+      <SiSass />,
+      <SiJava />,
+      <AiFillApi />,
+      <SiFirebase />,
+      <CgCloud />
     ]
   },
   {
     id: ".Project 3",
+    img: punkbeer,
+    overlay: PPD,
+    title: "Beer Search",
+    description: "Punk beer search",
+    githubURL: "https://github.com/Jemzzz16/punkbeer-api",
+    hostURL: "https://punkbeer-api.web.app",
+    tools: [
+      <FaReact />,
+      <SiSass />,
+      <AiFillApi />
+    ]
+  },
+  {
+    id: ".Project 4",
+    img: grandbequest,
+    overlay: GPD,
+    title: "Grand-Bequest",
+    description: "Client project",
+    githubURL: "https://github.com/nology-tech/grand-bequest",
+    hostURL: "https://grand-bequest-8ee46.web.app/",
+    tools: [
+      <FiFigma />,
+      <FaReact />,
+      <SiSass />,
+      <SiFirebase />
+    ]
+  },
+  {
+    id: ".Project 5",
+    img: winetracker,
+    overlay: OPD,
+    title: "Wine Tracker",
+    description: "FULL STACK application",
+    githubURL: "https://github.com/Jemzzz16/Wine-tracker.git",
+    hostURL: "https://github.com/Jemzzz16/Wine-tracker.git",
+    tools: [
+      <FiFigma />,
+      <FaReact />,
+      <SiSass />,
+      <SiJava />,
+      <AiFillApi />
+    ]
+  },
+  {
+    id: ".Project 6",
     img: morsecode,
     overlay: OPD,
     title: "Translator",
@@ -81,33 +131,19 @@ const projects = [
     ]
   },
   {
-    id: ".Project 4",
-    img: punkbeer,
+    id: ".Project 7",
+    img: calculator,
     overlay: PPD,
-    title: "Beer Search",
-    description: "Punk beer search",
-    githubURL: "https://github.com/Jemzzz16/punkbeer-api",
-    hostURL: "https://punkbeer-api.web.app",
+    title: "Calculator",
+    description: "javascript calculator",
+    githubURL: "",
+    hostURL: "",
     tools: [
-      <FaReact />,
-      <SiSass />,
-      <AiFillApi />
+      <AiFillHtml5 />,
+      <FaCss3Alt />,
+      <SiJavascript />,
+      <GrTest />
     ]
   },
-{
-  id: ".Project 5",
-  img: grandbequest,
-  overlay: GPD,
-  title: "Grand-Bequest",
-  description: "Client project",
-  githubURL: "https://github.com/nology-tech/grand-bequest",
-  hostURL: "https://grand-bequest-8ee46.web.app/",
-  tools: [
-    <FiFigma />,
-    <FaReact />,
-    <SiSass />,
-    <SiFirebase />
-  ]
-},
 ];
 export default projects;
