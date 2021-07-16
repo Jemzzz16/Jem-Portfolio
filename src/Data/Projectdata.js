@@ -11,7 +11,6 @@ import GPD from '../images/GPD.png';
 import OPD from '../images/OPD.png';
 import { 
   AiFillHtml5,
-  AiOutlineGithub,
   AiFillApi
  } from 'react-icons/ai';
  import { 
@@ -29,10 +28,11 @@ import {
   FiFigma
  } from 'react-icons/fi';
  import {
-  GrTest
+  GrTest,
+  GrMysql
  } from 'react-icons/gr';
  import {
-  CgCloud
+  CgCloud,
  } from 'react-icons/cg'
 
 
@@ -66,7 +66,8 @@ const projects = [
       <SiJava />,
       <AiFillApi />,
       <SiFirebase />,
-      <CgCloud />
+      <CgCloud />,
+      <GrMysql />
     ]
   },
   {
@@ -95,6 +96,7 @@ const projects = [
       <FiFigma />,
       <FaReact />,
       <SiSass />,
+      <SiJava />,
       <SiFirebase />
     ]
   },
@@ -111,7 +113,8 @@ const projects = [
       <FaReact />,
       <SiSass />,
       <SiJava />,
-      <AiFillApi />
+      <AiFillApi />,
+      <GrMysql />
     ]
   },
   {
@@ -136,8 +139,8 @@ const projects = [
     overlay: PPD,
     title: "Calculator",
     description: "javascript calculator",
-    githubURL: "",
-    hostURL: "",
+    githubURL: "https://github.com/Jemzzz16/Calculator",
+    hostURL: "https://github.com/Jemzzz16/Calculator",
     tools: [
       <AiFillHtml5 />,
       <FaCss3Alt />,
