@@ -1,7 +1,5 @@
 import React from 'react'
-import dimond from '../../images/dimond.png'
 import styles from "./Projects.module.scss";
-import { Link } from "react-router-dom";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import projects from "../../Data/Projectdata";
