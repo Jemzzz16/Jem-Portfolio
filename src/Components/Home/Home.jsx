@@ -10,13 +10,12 @@ const value = ["Software /", "Developer"];
 const Home = () => {
   const { result, dencrypt } = useDencrypt();
 
-  // software
+  // software developer NPM Code
   React.useEffect(() => {
     let i = 0;
     const action = setInterval(() => {
       dencrypt(value[i]);
       i = i === value.length - 1 ? 0 : i + 1;
-      
     }, 2000);
  
     return () => clearInterval(action);

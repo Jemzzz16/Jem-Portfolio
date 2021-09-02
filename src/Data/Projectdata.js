@@ -9,6 +9,7 @@ import winetracker from '../images/wine.jpg';
 import PPD from '../images/PPD.png';
 import GPD from '../images/GPD.png';
 import OPD from '../images/OPD.png';
+
 import { 
   AiFillHtml5,
   AiFillApi
@@ -34,7 +35,6 @@ import {
  import {
   CgCloud,
  } from 'react-icons/cg'
-
 
 const projects = [
   {

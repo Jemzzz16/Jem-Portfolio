@@ -34,7 +34,6 @@ const Projects = () => {
     },
   };
   
-  
   return ( 
     <>
       <Carousel
